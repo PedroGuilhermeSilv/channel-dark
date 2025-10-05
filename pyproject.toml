@@ -1,0 +1,23 @@
+[project]
+name = "carnal-dark"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "PedroGuilhermeSilv",email = "vinespedro55@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "requests (>=2.32.5,<3.0.0)",
+    "pytube (>=15.0.0,<16.0.0)",
+    "yt-dlp (>=2025.9.26,<2026.0.0)",
+    "google-api-python-client (>=2.184.0,<3.0.0)",
+    "google-auth-httplib2 (>=0.2.0,<0.3.0)",
+    "google-auth-oauthlib (>=1.2.2,<2.0.0)",
+    "schedule (>=1.2.2,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

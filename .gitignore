@@ -1,0 +1,9 @@
+auth_config.json
+credentials_youtube.json
+credentials_tiktok.json
+youtube_token.json
+tiktok_token.json
+db/
+__pycache__/
+.env
+.DS_Store
